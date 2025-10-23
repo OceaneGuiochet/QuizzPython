@@ -24,6 +24,8 @@ class GameView(arcade.View):
         self.final_message = ""
         self.create_buttons()
 
+        self.background = arcade.load_texture("assets/background.png")
+
     def on_show_view(self):
         arcade.set_background_color(arcade.color.LIGHT_BLUE)
 
@@ -44,33 +46,37 @@ class GameView(arcade.View):
     def on_draw(self):
         self.clear()
 
+        arcade.draw_texture_rect(
+            self.background,
+            arcade.LBWH(0,0,SCREEN_WIDTH, SCREEN_HEIGHT),
+        )
         arcade.draw_text(
             f"{self.player_name} | Total points: {self.quizz.player.total_points}",
             SCREEN_WIDTH - 300,
-            SCREEN_HEIGHT - 40,
-            arcade.color.WHITE,
-            16,
+            SCREEN_HEIGHT - 90,
+            arcade.color.LIGHT_APRICOT,
+            15,
         )
 
         if self.current_question:
             arcade.draw_text(
                 self.current_question.text,
                 SCREEN_WIDTH // 2,
-                SCREEN_HEIGHT - 150,
-                arcade.color.WHITE,
-                22,
+                SCREEN_HEIGHT - 220,
+                arcade.color.LIGHT_BLUE,
+                30,
                 anchor_x="center",
                 anchor_y="center",
                 align="center"
             )
 
             for x, y, w, h, choice in self.buttons:
-                arcade.draw_lbwh_rectangle_filled(x, y, w, h, arcade.color.WHITE)
+                arcade.draw_lbwh_rectangle_filled(x, y, w, h, arcade.color.LIGHT_PINK)
                 arcade.draw_text(
                     choice,
                     x + w / 2,
                     y + h / 2,
-                    arcade.color.BLACK,
+                    arcade.color.WHITE,
                     16,
                     anchor_x="center",
                     anchor_y="center",
@@ -82,20 +88,20 @@ class GameView(arcade.View):
                     self.feedback_message,
                     SCREEN_WIDTH // 2,
                     y_under_buttons,
-                    arcade.color.DARK_BLUE_GRAY if "Bonne" in self.feedback_message else arcade.color.RED,
-                    20,
+                    arcade.color.LIGHT_GREEN if "Bonne" in self.feedback_message else arcade.color.LIGHT_RED_OCHRE,
+                    18,
                     anchor_x="center",
                     anchor_y="center"
                 )
 
             if self.bonus_buttons:
                 bx, by, bw, bh, label = self.bonus_buttons
-                arcade.draw_lbwh_rectangle_filled(bx, by, bw, bh, arcade.color.ORANGE)
+                arcade.draw_lbwh_rectangle_filled(bx, by, bw, bh, arcade.color.LIGHT_APRICOT)
                 arcade.draw_text(
                     label,
                     bx + bw / 2,
                     by + bh / 2,
-                    arcade.color.BLACK,
+                    arcade.color.WHITE,
                     14,
                     anchor_x="center",
                     anchor_y="center"
@@ -106,7 +112,7 @@ class GameView(arcade.View):
                 f"Quizz fini, Total points: {self.quizz.player.total_points}",
                 SCREEN_WIDTH // 2,
                 SCREEN_HEIGHT // 2 + 80,
-                arcade.color.WHITE,
+                arcade.color.LIGHT_APRICOT,
                 18,
                 anchor_x="center",
             )
@@ -116,7 +122,7 @@ class GameView(arcade.View):
                     self.final_message,
                     SCREEN_WIDTH // 2,
                     SCREEN_HEIGHT // 2 - 50,
-                    arcade.color.RED,
+                    arcade.color.LIGHT_PINK,
                     20,
                     anchor_x="center",
                     anchor_y="center"
@@ -128,7 +134,7 @@ class GameView(arcade.View):
                     "Commencer le Quizz suivant",
                     bx + bw / 2,
                     by + bh / 2,
-                    arcade.color.WHITE,
+                    arcade.color.LIGHT_APRICOT,
                     20,
                     anchor_x="center",
                     anchor_y="center"
@@ -143,7 +149,7 @@ class GameView(arcade.View):
                     new_quizz = GameView(
                         self.player_name,
                         self.current_quizz_number,
-                        total_points=self.quizz.player.total_points  # cumuler les points
+                        total_points=self.quizz.player.total_points
                     )
                     self.window.show_view(new_quizz)
                 except FileNotFoundError:
