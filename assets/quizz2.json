@@ -1,55 +1,5 @@
 [
   {
-    "text": "Quelle est la capitale de la France ?",
-    "choices": ["Londres", "Paris", "Berlin", "Rome"],
-    "answer": "Paris"
-  },
-  {
-    "text": "Quel est le plus grand ocean du monde ?",
-    "choices": ["Atlantique", "Indien", "Pacifique", "Arctique"],
-    "answer": "Pacifique"
-  },
-  {
-    "text": "Combien font 7 x 8 ?",
-    "choices": ["54", "56", "58", "64"],
-    "answer": "56"
-  },
-  {
-    "text": "Qui a peint la Joconde ?",
-    "choices": ["Vincent Van Gogh", "Pablo Picasso", "Leonard de Vinci", "Claude Monet"],
-    "answer": "Leonard de Vinci"
-  },
-  {
-    "text": "Quel gaz les plantes absorbent-elles pour la photosynthese ?",
-    "choices": ["Oxygene", "Azote", "Dioxyde de carbone", "Hydrogene"],
-    "answer": "Dioxyde de carbone"
-  },
-  {
-    "text": "Quelle planete est la plus proche du Soleil ?",
-    "choices": ["Mercure", "Venus", "Terre", "Mars"],
-    "answer": "Mercure"
-  },
-  {
-    "text": "Quel est le symbole chimique de l'eau ?",
-    "choices": ["H2O", "O2", "CO2", "HO2"],
-    "answer": "H2O"
-  },
-  {
-    "text": "En quelle annee a eu lieu la Revolution francaise ?",
-    "choices": ["1776", "1789", "1815", "1848"],
-    "answer": "1789"
-  },
-  {
-    "text": "Quel est l'animal terrestre le plus rapide ?",
-    "choices": ["Lion", "Guepard", "Tigre", "Leopard"],
-    "answer": "Guepard"
-  },
-  {
-    "text": "Quel instrument mesure la temperature ?",
-    "choices": ["Barometre", "Thermometre", "Hygrometre", "Anemometre"],
-    "answer": "Thermometre"
-  },
-  {
     "text": "Quelle est la planete la plus grande du systeme solaire ?",
     "choices": ["Saturne", "Jupiter", "Uranus", "Neptune"],
     "answer": "Jupiter"

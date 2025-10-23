@@ -1,0 +1,52 @@
+[
+  {
+    "text": "Quelle ville est surnommee 'la ville eternelle' ?",
+    "choices": ["Athenes", "Rome", "Jerusalem", "Istanbul"],
+    "answer": "Rome"
+  },
+  {
+    "text": "Quelle molecule transporte l'oxygene dans le sang ?",
+    "choices": ["Hemoglobine", "Chlorophylle", "Insuline", "Myoglobine"],
+    "answer": "Hemoglobine"
+  },
+  {
+    "text": "Quelle est la plus grande ile du monde ?",
+    "choices": ["Australie", "Groenland", "Madagascar", "Borneo"],
+    "answer": "Groenland"
+  },
+  {
+    "text": "Quel scientifique a decouvert la penicilline ?",
+    "choices": ["Marie Curie", "Alexander Fleming", "Louis Pasteur", "Joseph Lister"],
+    "answer": "Alexander Fleming"
+  },
+  {
+    "text": "Quelle est la capitale de l'Australie ?",
+    "choices": ["Sydney", "Melbourne", "Canberra", "Perth"],
+    "answer": "Canberra"
+  },
+  {
+    "text": "Quel est le metal liquide a temperature ambiante ?",
+    "choices": ["Mercure", "Plomb", "Argent", "Zinc"],
+    "answer": "Mercure"
+  },
+  {
+    "text": "Quel est l'organe le plus grand du corps humain ?",
+    "choices": ["Peau", "Foie", "Poumons", "Cerveau"],
+    "answer": "Peau"
+  },
+  {
+    "text": "Dans quel domaine s'illustre Elon Musk ?",
+    "choices": ["Mode", "Technologie", "Cuisine", "Musique"],
+    "answer": "Technologie"
+  },
+  {
+    "text": "Quel pays est le plus peuple du monde ?",
+    "choices": ["Chine", "Inde", "Etats-Unis", "Indonesie"],
+    "answer": "Inde"
+  },
+  {
+    "text": "Quel compositeur est l'auteur de la 9e Symphonie ?",
+    "choices": ["Mozart", "Beethoven", "Bach", "Chopin"],
+    "answer": "Beethoven"
+  }
+]

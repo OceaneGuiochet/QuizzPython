@@ -1,0 +1,52 @@
+[
+  {
+    "text": "Quel pays est surnomme 'le pays du Soleil-Levant' ?",
+    "choices": ["Chine", "Coree du Sud", "Japon", "Vietnam"],
+    "answer": "Japon"
+  },
+  {
+    "text": "Quel est l'architecte de la tour Eiffel ?",
+    "choices": ["Haussmann", "Eiffel", "Gaudi", "Le Corbusier"],
+    "answer": "Eiffel"
+  },
+  {
+    "text": "Quel est l'organe qui controle l'equilibre du corps humain ?",
+    "choices": ["Oreille interne", "Cerveau", "Yeux", "Moelle epiniere"],
+    "answer": "Oreille interne"
+  },
+  {
+    "text": "Quel est le plus grand satellite naturel du systeme solaire ?",
+    "choices": ["Titan", "Ganymede", "Europe", "Io"],
+    "answer": "Ganymede"
+  },
+  {
+    "text": "Quel physicien a decouvert la radioactivite naturelle ?",
+    "choices": ["Henri Becquerel", "Marie Curie", "Rutherford", "Planck"],
+    "answer": "Henri Becquerel"
+  },
+  {
+    "text": "Quelle est la constante notee 'c' en physique ?",
+    "choices": ["La vitesse du son", "La vitesse de la lumiere", "La constante de Planck", "La gravite"],
+    "answer": "La vitesse de la lumiere"
+  },
+  {
+    "text": "Quelle est la capitale de la Coree du Sud ?",
+    "choices": ["Pekin", "Tokyo", "Seoul", "Busan"],
+    "answer": "Seoul"
+  },
+  {
+    "text": "Quel est le plus ancien langage de programmation encore utilise ?",
+    "choices": ["C", "Fortran", "Pascal", "Java"],
+    "answer": "Fortran"
+  },
+  {
+    "text": "Quel est le nom du plus grand radiotelescope du monde (inaugure en Chine en 2016) ?",
+    "choices": ["FAST", "ALMA", "Arecibo", "SKA"],
+    "answer": "FAST"
+  },
+  {
+    "text": "Quelle theorie cosmologique decrit l'origine de l'univers ?",
+    "choices": ["Big Bang", "Steady State", "Inflation", "Theorie des cordes"],
+    "answer": "Big Bang"
+  }
+]

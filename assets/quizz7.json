@@ -1,0 +1,52 @@
+[
+  {
+    "text": "Quelle est la temperature du zero absolu en degres Celsius ?",
+    "choices": ["-100", "-173", "-273,15", "-459,67"],
+    "answer": "-273,15"
+  },
+  {
+    "text": "Quel philosophe grec a ete le maitre d'Alexandre le Grand ?",
+    "choices": ["Socrate", "Aristote", "Platon", "Epicure"],
+    "answer": "Aristote"
+  },
+  {
+    "text": "Quelle experience historique a montre la dualite onde-corpuscule de la lumiere ?",
+    "choices": ["Fente de Young", "Photoelectrique", "Michelson-Morley", "Planck"],
+    "answer": "Fente de Young"
+  },
+  {
+    "text": "Quel est le nom du premier ordinateur electronique de l'histoire ?",
+    "choices": ["ENIAC", "Colossus", "UNIVAC", "IBM 701"],
+    "answer": "ENIAC"
+  },
+  {
+    "text": "Quel est le plus grand nombre premier connu (au 21e siecle) ?",
+    "choices": ["2^82,589,933−1", "2^61−1", "2^31−1", "2^127−1"],
+    "answer": "2^82,589,933−1"
+  },
+  {
+    "text": "Quel physicien a invente la radio ?",
+    "choices": ["Tesla", "Marconi", "Einstein", "Newton"],
+    "answer": "Marconi"
+  },
+  {
+    "text": "Quel est le plus grand volcan du monde ?",
+    "choices": ["Mauna Loa", "Vesuvius", "Etna", "Kilimandjaro"],
+    "answer": "Mauna Loa"
+  },
+  {
+    "text": "Quelle est la capitale de l'Espagne ?",
+    "choices": ["Barcelone", "Madrid", "Valence", "Seville"],
+    "answer": "Madrid"
+  },
+  {
+    "text": "Qui a decouvert la loi de la gravitation universelle ?",
+    "choices": ["Galilee", "Newton", "Einstein", "Archimede"],
+    "answer": "Newton"
+  },
+  {
+    "text": "Quel pays a la plus grande superficie au monde ?",
+    "choices": ["Canada", "Chine", "Etats-Unis", "Russie"],
+    "answer": "Russie"
+  }
+]

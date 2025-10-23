@@ -1,0 +1,52 @@
+[
+  {
+    "text": "Quel est le plus long fleuve du monde ?",
+    "choices": ["Nil", "Amazone", "Yangtze", "Mississippi"],
+    "answer": "Amazone"
+  },
+  {
+    "text": "Qui a formule la theorie de la relativite ?",
+    "choices": ["Isaac Newton", "Albert Einstein", "Galilee", "Stephen Hawking"],
+    "answer": "Albert Einstein"
+  },
+  {
+    "text": "Dans quel pays se trouve la ville de Marrakech ?",
+    "choices": ["Tunisie", "Maroc", "Egypte", "Algerie"],
+    "answer": "Maroc"
+  },
+  {
+    "text": "Quel est l'organe qui produit l'insuline ?",
+    "choices": ["Foie", "Pancreas", "Rate", "Reins"],
+    "answer": "Pancreas"
+  },
+  {
+    "text": "Combien de degres y a-t-il dans un angle droit ?",
+    "choices": ["45", "90", "180", "360"],
+    "answer": "90"
+  },
+  {
+    "text": "Quel element chimique a pour symbole 'Au' ?",
+    "choices": ["Argent", "Aluminium", "Or", "Uranium"],
+    "answer": "Or"
+  },
+  {
+    "text": "Quel pays a invente le papier ?",
+    "choices": ["Inde", "Chine", "Egypte", "Grece"],
+    "answer": "Chine"
+  },
+  {
+    "text": "Quelle est la capitale du Canada ?",
+    "choices": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+    "answer": "Ottawa"
+  },
+  {
+    "text": "Combien de temps met la Terre pour faire un tour complet autour du Soleil ?",
+    "choices": ["24 heures", "30 jours", "365 jours", "12 heures"],
+    "answer": "365 jours"
+  },
+  {
+    "text": "Qui est l'auteur de 'Le Petit Prince' ?",
+    "choices": ["Antoine de Saint-Exupery", "Marcel Proust", "Albert Camus", "Jean-Paul Sartre"],
+    "answer": "Antoine de Saint-Exupery"
+  }
+]

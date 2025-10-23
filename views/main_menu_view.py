@@ -1,3 +1,5 @@
+import os
+
 import arcade
 from arcade import key
 from core.settings import SCREEN_WIDTH, SCREEN_HEIGHT
@@ -19,7 +21,11 @@ class MenuView(arcade.View):
 
     def on_draw(self):
         self.clear()
-
+        arcade.draw_text(
+            "QUIZZ",
+            SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2 + 150,
+            arcade.color.BLACK, 36, anchor_x="center"
+        )
         arcade.draw_text("Entrer votre nom :", SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2 + 100,
                          arcade.color.BLACK, 24, anchor_x="center")
 

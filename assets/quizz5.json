@@ -1,0 +1,52 @@
+[
+  {
+    "text": "Quelle ville est la plus haute capitale du monde ?",
+    "choices": ["Quito", "La Paz", "Katmandou", "Bogota"],
+    "answer": "La Paz"
+  },
+  {
+    "text": "Qui a ecrit 'Le Rouge et le Noir' ?",
+    "choices": ["Stendhal", "Balzac", "Zola", "Flaubert"],
+    "answer": "Stendhal"
+  },
+  {
+    "text": "Quel est l'organe responsable de la production des globules rouges ?",
+    "choices": ["Rate", "Moelle osseuse", "Foie", "Poumons"],
+    "answer": "Moelle osseuse"
+  },
+  {
+    "text": "Quelle est la plus grande mer interieure du monde ?",
+    "choices": ["Mer Noire", "Mer Caspienne", "Mer Rouge", "Mer d'Aral"],
+    "answer": "Mer Caspienne"
+  },
+  {
+    "text": "Quel est l'element le plus abondant dans l'univers ?",
+    "choices": ["Hydrogene", "Oxygene", "Helium", "Carbone"],
+    "answer": "Hydrogene"
+  },
+  {
+    "text": "Quel philosophe a ecrit 'Le contrat social' ?",
+    "choices": ["Rousseau", "Voltaire", "Montesquieu", "Descartes"],
+    "answer": "Rousseau"
+  },
+  {
+    "text": "Quel etait le nom du premier satellite artificiel lance par l'homme ?",
+    "choices": ["Voyager 1", "Apollo 11", "Spoutnik 1", "Luna 2"],
+    "answer": "Spoutnik 1"
+  },
+  {
+    "text": "Dans quelle ville se trouve le musee du Prado ?",
+    "choices": ["Paris", "Rome", "Madrid", "Lisbonne"],
+    "answer": "Madrid"
+  },
+  {
+    "text": "Quel est le nom du plus grand desert chaud du monde ?",
+    "choices": ["Gobi", "Sahara", "Kalahari", "Arabie"],
+    "answer": "Sahara"
+  },
+  {
+    "text": "Quelle est la premiere femme a avoir recu un prix Nobel ?",
+    "choices": ["Marie Curie", "Rosalind Franklin", "Ada Lovelace", "Jane Goodall"],
+    "answer": "Marie Curie"
+  }
+]

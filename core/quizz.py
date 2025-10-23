@@ -6,12 +6,12 @@ class Quizz:
         self.points = 0
 
     def first_question(self):
-            return self.questions[self.current_index]
+        return self.questions[self.current_index]
 
     def next_question(self):
+        self.current_index += 1
         if self.current_index < len(self.questions):
             question = self.questions[self.current_index]
-            self.current_index += 1
             return question
         return None
 
