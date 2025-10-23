@@ -129,12 +129,12 @@ class GameView(arcade.View):
                 )
             else:
                 bx, by, bw, bh = (SCREEN_WIDTH - 350) / 2, (SCREEN_HEIGHT - 100) / 2, 350, 100
-                arcade.draw_lbwh_rectangle_filled(bx, by, bw, bh, arcade.color.GRAY)
+                arcade.draw_lbwh_rectangle_filled(bx, by, bw, bh, arcade.color.LIGHT_BLUE)
                 arcade.draw_text(
                     "Commencer le Quizz suivant",
                     bx + bw / 2,
                     by + bh / 2,
-                    arcade.color.LIGHT_APRICOT,
+                    arcade.color.WHITE,
                     20,
                     anchor_x="center",
                     anchor_y="center"
